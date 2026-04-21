@@ -1,0 +1,7 @@
+# Supabase Configuration
+
+[api]
+enabled = true
+
+[auth]
+enabled = false
