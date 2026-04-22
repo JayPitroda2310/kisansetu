@@ -32,7 +32,7 @@ import {
   type Message
 } from '../../utils/supabase/messages';
 import { supabase } from '../../utils/supabase/client';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 import { StorageSetupModal } from '../StorageSetupModal';
 
 interface MessagesPageProps {

@@ -3,7 +3,7 @@ import { SellerViewDetailsModal } from './SellerViewDetailsModal';
 import { supabase } from '../../utils/supabase/client';
 import { getListingBids, acceptBid as acceptBidInDB, subscribeToBids } from '../../utils/supabase/bids';
 import { updateListing } from '../../utils/supabase/listings';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 import { Loader2 } from 'lucide-react';
 
 interface SellerViewDetailsModalWrapperProps {

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Database, CheckCircle, XCircle, Loader2, AlertCircle } from 'lucide-react';
 import { supabase } from '../utils/supabase/client';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 import { Button } from './ui/button';
 
 export function AutoStorageSetup() {

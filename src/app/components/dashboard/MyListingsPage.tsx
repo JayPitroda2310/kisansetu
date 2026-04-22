@@ -8,7 +8,7 @@ import { ImageWithFallback } from '../figma/ImageWithFallback';
 import soldOutStamp from '../../imports/image.png';
 import { createListing } from '../../utils/supabase/listings';
 import { supabase } from '../../utils/supabase/client';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 import { uploadProductImages, uploadCertificate } from '../../utils/supabase/storage';
 
 interface Listing {

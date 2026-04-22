@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Database, CheckCircle, Shield, Table, Loader2 } from 'lucide-react';
 import { projectId, publicAnonKey } from '../utils/supabase/info';
-import { toast } from 'sonner@2.0.3';
-
+import { toast } from "sonner"
 export function StorageBucketInitializer() {
   const [isInitializing, setIsInitializing] = useState(false);
   const [isApplyingPolicies, setIsApplyingPolicies] = useState(false);

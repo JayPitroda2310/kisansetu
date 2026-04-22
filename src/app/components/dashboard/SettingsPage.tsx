@@ -25,7 +25,7 @@ import { ImageWithFallback } from '../figma/ImageWithFallback';
 import { StorageDiagnostic } from '../StorageDiagnostic';
 import { AutoStorageSetup } from '../AutoStorageSetup';
 import { StorageSetupGuide } from '../StorageSetupGuide';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 import { getUserProfile, updateUserProfile, UserProfileData } from '../../utils/supabase/profiles';
 import { supabase } from '../../utils/supabase/client';
 import profileAvatar from 'figma:asset/fa2ac1034278e0bb33243ca36a48e788d9e706b9.png';

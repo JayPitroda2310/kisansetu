@@ -15,7 +15,7 @@ import {
 } from 'lucide-react';
 import profileAvatar from 'figma:asset/fa2ac1034278e0bb33243ca36a48e788d9e706b9.png';
 import { getUserProfile, updateUserProfile, calculateProfileCompletion } from '../../utils/supabase/profiles';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 import { supabase } from '../../utils/supabase/client';
 
 type UserRole = 'farmer' | 'buyer' | 'service-provider' | 'both';

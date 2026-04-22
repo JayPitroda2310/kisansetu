@@ -1,7 +1,7 @@
 import { FileText, Database, CheckCircle, XCircle, AlertCircle } from 'lucide-react';
 import { useState } from 'react';
 import { supabase } from '../utils/supabase/client';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 export function FileUploadSetupInstructions() {
   const [isChecking, setIsChecking] = useState(false);

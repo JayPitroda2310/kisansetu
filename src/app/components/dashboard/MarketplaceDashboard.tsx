@@ -34,7 +34,7 @@ import { EditListingModal } from './EditListingModal';
 import { ImageWithFallback } from '../figma/ImageWithFallback';
 import { createListing } from '../../utils/supabase/listings';
 import { supabase } from '../../utils/supabase/client';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 import { 
   getMarketplaceListings, 
   getMarketStats, 

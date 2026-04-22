@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { MessageSquare, Loader2 } from 'lucide-react';
 import { getOrCreateConversation } from '../../utils/supabase/messages';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface ContactSellerButtonProps {
   sellerId: string;
